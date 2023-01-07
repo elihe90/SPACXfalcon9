@@ -1,5 +1,8 @@
 # SPACXfalcon9
-
+Estimating the cost of space travel SPACY
+Checking the successful or unsuccessful landing of the company SPACX
+ANALYTIC APPROACH :Predicting whether the companySPACX will use the first phase again or not
+DATA Requirment :WEBSITE SPACX
 predict _model machinelearning
 
 supervised Learning
