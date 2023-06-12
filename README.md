@@ -1,33 +1,19 @@
-# SPACXfalcon9
-Estimating the cost of space travel SPACY
-Checking the successful or unsuccessful landing of the company SPACX
-ANALYTIC APPROACH :Predicting whether the companySPACX will use the first phase again or not
-DATA Requirment :WEBSITE SPACX
-predict _model machinelearning
+SpaceX Falcon 9 first stage Landing Prediction
+Lab 1: Collecting the data
+Estimated time needed: 45 minutes
 
-supervised Learning
-
-Project: SPACXfalcon9
-
-Install
-
-This project requires Python 2.7 and the following Python libraries installed:
-
-NumPy
-
-Pandas
-
-matplotlib
-
-scikit-learn
-
-You will also need to have software installed to run and execute a Jupyter Notebook
+In this capstone, we will predict if the Falcon 9 first stage will land successfully. SpaceX advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because SpaceX can reuse the first stage. Therefore if we can determine if the first stage will land, we can determine the cost of a launch. This information can be used if an alternate company wants to bid against SpaceX for a rocket launch. In this lab, you will collect and make sure the data is in the correct format from an API. The following is an example of a successful and launch.
 
 
-If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
+
+Several examples of an unsuccessful landing are shown here:
 
 
-Code
-Template code is provided in the SPACXfalcon9 notebook file. You will also be required to use the included  preprocessed_dataset.csv dataset file to complete your work.
 
-While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. 
+Most unsuccessful landings are planned. Space X performs a controlled landing in the oceans.
+
+Objectives
+In this lab, you will make a get request to the SpaceX API. You will also do some basic data wrangling and formating.
+
+Request to the SpaceX API
+Clean the requested data
